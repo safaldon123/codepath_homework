@@ -1,26 +1,47 @@
-# codepath_homework
+# Project 8 - Pentesting Live Targets
 
-# VirtualBox and Kali
+Time spent: **X** hours spent in total
 
-**Homework Instructions**: 
+> Objective: Identify vulnerabilities in three different versions of the Globitek website: blue, green, and red.
 
-1. Create a GIF recording of you starting your new Kali VM. Show VirtualBox Manger, click Start on your Kali box and end the recording when it reaches the login prompt. If it's larger than 5 MB, try to remove any large swathes of redudant frames. Save it as `vbox_kali.gif`.
-2. Create a GIF recording of you running the following command block in your Kali Terminal. Copy it to a text editor first and **replace the first 2 variables, name and univ, with your real name and college name**, then copy/paste the code block into a Terminal. 
+The six possible exploits are:
 
-```
-name="FirstName LastName"
-univ="University of Science"
+* Username Enumeration
+* Insecure Direct Object Reference (IDOR)
+* SQL Injection (SQLi)
+* Cross-Site Scripting (XSS)
+* Cross-Site Request Forgery (CSRF)
+* Session Hijacking/Fixation
 
-screenfetch
-echo $name'@'$univ
-```
+Each color is vulnerable to only 2 of the 6 possible exploits. First discover which color has the specific vulnerability, then write a short description of how to exploit it, and finally demonstrate it using screenshots compiled into a GIF.
 
-Save the file as **screenfetch.gif**.
+## Blue
 
-**Challenges and Problems**: 
+Vulnerability #1: SQL Injection
 
-### Installing VirtualBox and Kali
-<img src="vbox_kali.gif" alt="Virtualbox Installation">
- 
-### Running screenfetch
-<img src="screenfetch.gif" alt="Running screenfetch">
+https://github.com/safaldon123/codepath_homework/blob/main/ezgif.com-video-to-gif.gif
+
+
+
+
+## Green
+
+Vulnerability #1:Cross-Site Scripting 
+
+https://github.com/safaldon123/codepath_homework/blob/main/ezgif.com-video-to-gif-2.gif
+
+
+
+
+
+## Red
+
+Vulnerability #1:IDOR
+
+https://github.com/safaldon123/codepath_homework/blob/main/ezgif.com-video-to-gif-3.gif
+
+
+
+## Notes
+
+Describe any challenges encountered while doing the work
